@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.output {
+  outline: none;
+  border: none;
+  width: 380px;
+  height: 70px;
+  font-size: 32px;
+  padding: 2px 10px;
+  background: #262e2e;
+  
+  color: #fff;
+  text-align: right;
+
+}
+button {
+  width: 100px;
+  height: 80px;
+  font-size: 26px;
+  cursor: pointer;
+  border: none;
+  border-top:  1px solid #666;
+  border-right:1px solid #666;
+  
+}
+
+.digit:hover {
+  background-color: #7aea82;
+  
+}
+
+.operator {
+  border-right: none;
+  background-color: #e8932b;
+  color: #fff;
+}
+
+.fun-keys:hover {
+  background-color: #7aea82;
+}
